@@ -1,0 +1,288 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+}
+/* header css start ------------------------------------>>>*/
+.header {
+  width: 100%;
+  height: 10rem;
+  background-color: rgba(255, 251, 240, 1);
+}
+.nav {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.header_logo,
+img {
+  width: 30rem;
+}
+
+.menu_icon {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 3px;
+  display: none;
+}
+a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  margin-left: 2rem;
+  color: black;
+}
+/* header css end ------------------------------------>>>*/
+
+/* top section css start ------------------------------------>>>*/
+.top_section {
+  background-color: rgba(255, 251, 240, 1);
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.top_left_text_div {
+  width: 50%;
+  overflow: hidden;
+  height: 100vh;
+  margin-top: 20rem;
+}
+.top_title {
+  margin: 0;
+  padding: 0;
+  font-size: 8rem;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
+  color: rgba(250, 190, 76, 1);
+}
+p {
+  font-size: 1.6rem;
+  font-family: "Public Sans", sans-serif;
+}
+.buy_btn {
+  background-color: rgba(255, 95, 114, 1);
+  font-size: 1.6rem;
+  color: white;
+  width: 17rem;
+  height: 6rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.top_right_img_div {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.top_right_img {
+  width: 100%;
+}
+
+/* top section css end ------------------------------------>>>*/
+
+/* women jacket css start ----------------------------->>>*/
+.women_jacket {
+  width: 100%;
+  height: 75vh;
+  background-color: white;
+}
+.women_cloth_container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.title_of_wom_section {
+  font-size: 4.8rem;
+}
+.wom_cloth_card_itme {
+  width: 470px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.img_container {
+  width: 90%;
+  height: 62%;
+  margin: 0 auto;
+  background-color: rgba(241, 241, 241, 1);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wom_img {
+  width: 70%;
+  height: 90%;
+}
+/* women jacket css end ----------------------------->>>*/
+/* man jacket css start ------------------------------>>>*/
+.man_jacket {
+  width: 100%;
+  height: 75vh;
+  background-color: white;
+  margin-top: 10rem;
+}
+/* man jacket css end -------------------------------->>>*/
+
+/* about us css start ------------------------------>>>*/
+.about_Us {
+  width: 100%;
+  height: 75vh;
+  background-color: white;
+}
+.container_about{
+  width: 80%;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.left_div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about_us_column_card {
+  width: 75rem;
+  height: 14.5rem;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+}
+.img_about_left {
+  width: 78px;
+  height: 82px;
+  display: inline-block;
+  margin-left: 5rem;
+}
+.card_about_img {
+  width: 78px;
+  height: 82px;
+}
+.content_right {
+  margin-left: 3rem;
+}
+
+.about_us_img_container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about_img {
+  width: 76%;
+  height: 60%;
+}
+
+/* subscribe us css end -------------------------------->>>*/
+.subscribe_Us {
+  width: 100%;
+  height: 60vh;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+.container_subscribe {
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 218, 218, 1);
+}
+.subscribe_left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe_input_form {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.input_style {
+  width: 24rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: rgb(245 222 179);
+  border: none;
+  margin-bottom: 3rem;
+  outline-color: white;
+  padding-left: 8px;
+}
+.input_style_btn {
+  width: 24rem;
+  height: 4rem;
+  border-radius: 5px;
+  background-color: #03A9F4;
+  border: none;
+  margin-bottom: 3rem;
+  color: white;
+  outline-color: #03A9F4;
+}
+/*  subscribe us css end -------------------------------->>>*/
+
+/* footer */
+.footer{
+  background-color: rgba(7, 14, 24, 1);
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socile_icon_div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+.socile_icon_style{
+  width: 5rem;
+  height: 5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,662 @@
+/* responsive css */
+@media screen and (min-width: 320px) {
+    html {
+      font-size: 50%;
+    }
+    .header_links {
+      display: none;
+    }
+    .menu_icon {
+      display: block;
+      margin-right: 3rem;
+    }
+    .nav {
+      width: 100%;
+      padding-top: 3rem;
+    }
+    .header_logo,
+    img {
+      width: 25rem;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .top_left_text_div {
+      width: 100%;
+      margin-top: 4rem;
+    }
+    .top_right_img_div {
+      width: 100%;
+      display: flex;
+      /* align-items: center; */
+      justify-content: center;
+    }
+    .top_right_img {
+      width: 157%;
+      margin-right: 13rem;
+    }
+    .top_title {
+      font-size: 7rem;
+    }
+  
+    /* women jacket css */
+    .women_jacket {
+      width: 100%;
+      height: auto;
+      background-color: white;
+    }
+    .women_cloth_container {
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .wom_cloth_card_itme {
+      height: 490px;
+      margin-bottom: 3rem;
+    }
+    /* man jacket css; */
+    .man_jacket {
+      height: auto;
+    }
+    /* about_us css */
+    .about_Us {
+      width: 100%;
+      height: auto;
+      background-color: white;
+      margin-top: 2rem;
+    }
+    .container_about {
+      flex-direction: column-reverse;
+      height: auto;
+    }
+    .about_us_img_container {
+      width: 100%;
+    }
+    .about_img {
+      width: 76%;
+      height: auto;
+    }
+    .left_div {
+      width: 100%;
+      margin-top: 2rem;
+    }
+    .about_us_column_card {
+      width: 38rem;
+      height: 29.5rem;
+      box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+      display: flex;
+      align-items: center;
+      border-radius: 2rem;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 2rem;
+      justify-content: center;
+    }
+    p.for_line_hight {
+      line-height: 17px;
+    }
+    .content_right {
+      margin-left: 1rem;
+    }
+    /* subscribe us css */
+    .subscribe_Us {
+      height: auto;
+      margin-bottom: 3rem;
+    }
+    .container_subscribe {
+      height: 90vh;
+      flex-direction: column;
+    }
+    .subscribe_left {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    .subscribe_input_form {
+      width: 100%;
+    }
+  
+    /* footer css */
+    .footer {
+      height: 181px;
+    }
+  }
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+  .header_links {
+    display: none;
+  }
+  .menu_icon {
+    display: block;
+    margin-right: 3rem;
+  }
+  .nav {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  .header_logo,
+  img {
+    width: 25rem;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top_left_text_div {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .top_right_img_div {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .top_right_img {
+    width: 157%;
+    margin-right: 13rem;
+  }
+  .top_title {
+    font-size: 7rem;
+  }
+
+  /* women jacket css */
+  .women_jacket {
+    width: 100%;
+    height: auto;
+    background-color: white;
+  }
+  .women_cloth_container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .wom_cloth_card_itme {
+    height: 490px;
+    margin-bottom: 3rem;
+  }
+  /* man jacket css; */
+  .man_jacket {
+    height: auto;
+  }
+  /* about_us css */
+  .about_Us {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 2rem;
+  }
+  .container_about {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .about_us_img_container {
+    width: 100%;
+  }
+  .about_img {
+    width: 76%;
+    height: auto;
+  }
+  .left_div {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .about_us_column_card {
+    width: 38rem;
+    height: 29.5rem;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  p.for_line_hight {
+    line-height: 17px;
+  }
+  .content_right {
+    margin-left: 1rem;
+  }
+  /* subscribe us css */
+  .subscribe_Us {
+    height: auto;
+    margin-bottom: 3rem;
+  }
+  .container_subscribe {
+    height: 90vh;
+    flex-direction: column;
+  }
+  .subscribe_left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .subscribe_input_form {
+    width: 100%;
+  }
+
+  /* footer css */
+  .footer {
+    height: 181px;
+  }
+}
+
+/* responsive css */
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 50%;
+  }
+  .header_links {
+    display: block;
+  }
+  .menu_icon {
+    display: none;
+    margin-right: 3rem;
+  }
+  .nav {
+    width: 85%;
+    padding-top: 4rem;
+  }
+  .header_logo,
+  img {
+    width: 30rem;
+  }
+  .container {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+  }
+  .top_left_text_div {
+    width: 50%;
+    margin-top: 10rem;
+  }
+  .top_right_img_div {
+    width: 50%;
+  }
+  .women_cloth_container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wom_cloth_card_itme {
+    height: 490px;
+    margin-bottom: 3rem;
+    width: 350px;
+  }
+  .container_about {
+    width: 85%;
+    height: 65vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .about_us_column_card {
+    width: 70rem;
+    height: 14.5rem;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    text-align: start;
+    border-radius: 2rem;
+    flex-direction: row;
+  }
+  .container_subscribe {
+    height: 60vh;
+
+    flex-direction: row;
+  }
+  .subscribe_Us {
+    height: auto;
+    margin-bottom: 6rem;
+  }
+  .footer {
+    height: 250px;
+  }
+}
+
+/* responsive css */
+@media screen and (min-width: 1366px) {
+  html {
+    font-size: 52%;
+  }
+  .wom_cloth_card_itme {
+    width: 379px;
+  }
+  .container_subscribe {
+    width: 85%;
+  }
+  .footer {
+    height: 250px;
+    width: 85%;
+  }
+}
+
+/* responsive css */
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 57%;
+  }
+  .wom_cloth_card_itme {
+    width: 396px;
+    height: 535px;
+  }
+  .about_Us {
+    margin-top: 4rem;
+  }
+  .container_about {
+
+    height: 80vh;
+}
+}
+/* responsive css */
+@media screen and (min-width: 1600px) {
+    html {
+      font-size: 57%;
+    }
+    .wom_cloth_card_itme {
+        width: 435px;
+        height: 535px;
+    }
+    .about_Us {
+      margin-top: 4rem;
+    }
+    .container_about {
+  
+      height: 80vh;
+  }
+  }
+/* responsive css */
+@media screen and (min-width: 1920px) {
+    html {
+      font-size: 62.5%;
+    }
+    .header {
+        width: 100%;
+        height: 10rem;
+        background-color: rgba(255, 251, 240, 1);
+      }
+      .nav {
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+      }
+      .header_logo,
+      img {
+        width: 30rem;
+      }
+      
+      .menu_icon {
+        display: block;
+        width: 26px;
+        height: 2px;
+        background-color: black;
+        margin-bottom: 3px;
+        display: none;
+      }
+      a {
+        text-decoration: none;
+        font-size: 2rem;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 600;
+        margin-left: 2rem;
+        color: black;
+      }
+      /* header css end ------------------------------------>>>*/
+      
+      /* top section css start ------------------------------------>>>*/
+      .top_section {
+        background-color: rgba(255, 251, 240, 1);
+        width: 100%;
+        height: 100vh;
+      }
+      .container {
+        width: 80%;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .top_left_text_div {
+        width: 50%;
+        overflow: hidden;
+        height: 100vh;
+        margin-top: 20rem;
+      }
+      .top_title {
+        margin: 0;
+        padding: 0;
+        font-size: 8rem;
+        font-family: "Public Sans", sans-serif;
+        font-weight: 600;
+        color: rgba(250, 190, 76, 1);
+      }
+      p {
+        font-size: 1.6rem;
+        font-family: "Public Sans", sans-serif;
+      }
+      .buy_btn {
+        background-color: rgba(255, 95, 114, 1);
+        font-size: 1.6rem;
+        color: white;
+        width: 17rem;
+        height: 6rem;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin-top: 2rem;
+        cursor: pointer;
+      }
+      
+      .top_right_img_div {
+        width: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+      }
+      .top_right_img {
+        width: 100%;
+      }
+      
+      /* top section css end ------------------------------------>>>*/
+      
+      /* women jacket css start ----------------------------->>>*/
+      .women_jacket {
+        width: 100%;
+        height: 75vh;
+        background-color: white;
+      }
+      .women_cloth_container {
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .title_of_wom_section {
+        font-size: 4.8rem;
+      }
+      .wom_cloth_card_itme {
+        width: 470px;
+        height: 600px;
+        border-radius: 20px;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+      .img_container {
+        width: 90%;
+        height: 62%;
+        margin: 0 auto;
+        background-color: rgba(241, 241, 241, 1);
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .wom_img {
+        width: 70%;
+        height: 90%;
+      }
+      /* women jacket css end ----------------------------->>>*/
+      /* man jacket css start ------------------------------>>>*/
+      .man_jacket {
+        width: 100%;
+        height: 75vh;
+        background-color: white;
+        margin-top: 10rem;
+      }
+      /* man jacket css end -------------------------------->>>*/
+      
+      /* about us css start ------------------------------>>>*/
+      .about_Us {
+        width: 100%;
+        height: 75vh;
+        background-color: white;
+      }
+      .container_about{
+        width: 80%;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      .left_div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .about_us_column_card {
+        width: 75rem;
+        height: 14.5rem;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+        display: flex;
+        align-items: center;
+        border-radius: 2rem;
+      }
+      .img_about_left {
+        width: 78px;
+        height: 82px;
+        display: inline-block;
+        margin-left: 5rem;
+      }
+      .card_about_img {
+        width: 78px;
+        height: 82px;
+      }
+      .content_right {
+        margin-left: 3rem;
+      }
+      
+      .about_us_img_container {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .about_img {
+        width: 76%;
+        height: 60%;
+      }
+      
+      /* subscribe us css end -------------------------------->>>*/
+      .subscribe_Us {
+        width: 100%;
+        height: 60vh;
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+      }
+      .container_subscribe {
+        width: 80%;
+        height: 60vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 218, 218, 1);
+      }
+      .subscribe_left {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .subscribe_input_form {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+      }
+      .input_style {
+        width: 24rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: rgb(245 222 179);
+        border: none;
+        margin-bottom: 3rem;
+        outline-color: white;
+        padding-left: 8px;
+      }
+      .input_style_btn {
+        width: 24rem;
+        height: 4rem;
+        border-radius: 5px;
+        background-color: #03A9F4;
+        border: none;
+        margin-bottom: 3rem;
+        color: white;
+        outline-color: #03A9F4;
+      }
+      /*  subscribe us css end -------------------------------->>>*/
+      
+      /* footer */
+      .footer{
+        background-color: rgba(7, 14, 24, 1);
+        width: 80%;
+        margin: 0 auto;
+        height: 300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .socile_icon_div{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5rem;
+      }
+      .socile_icon_style{
+        width: 5rem;
+        height: 5rem;
+        margin-left: 1rem;
+        cursor: pointer;
+      }
+      
+  }
